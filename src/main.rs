@@ -13,6 +13,7 @@ use crossterm::{
 };
 
 fn main() {
+    println!("welcome to the shire, a project that died before it started.");
     let mut out = stdout();
     let _ = enable_raw_mode();
     let _ = out.execute(Print("$ "));
